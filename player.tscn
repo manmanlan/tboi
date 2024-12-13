@@ -1,13 +1,23 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=4 format=3 uid="uid://cssdei57d7wew"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_b88tu"]
+=======
+[gd_scene load_steps=4 format=3 uid="uid://b843nfrkgunb0"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_5ps0r"]
+>>>>>>> Stashed changes
 [ext_resource type="Texture2D" uid="uid://b1cgoiob6fo3e" path="res://icon.svg" id="2_fi1wj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sbed1"]
 size = Vector2(110, 115)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+<<<<<<< Updated upstream
 script = ExtResource("1_b88tu")
+=======
+script = ExtResource("1_5ps0r")
+>>>>>>> Stashed changes
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(2, -2.5)
@@ -15,3 +25,16 @@ shape = SubResource("RectangleShape2D_sbed1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_fi1wj")
+<<<<<<< Updated upstream
+=======
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="bow" type="Sprite2D" parent="."]
+position = Vector2(2, -112)
+scale = Vector2(1, 0.296875)
+texture = ExtResource("2_fi1wj")
+
+[node name="Marker2D" type="Marker2D" parent="bow"]
+position = Vector2(0, 377.263)
+>>>>>>> Stashed changes
