@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://fkt65f1mqenk"]
+[gd_scene load_steps=5 format=4 uid="uid://fkt65f1mqenk"]
 
 [ext_resource type="PackedScene" uid="uid://vj4rsen8a3vw" path="res://player.tscn" id="1_rmxup"]
 [ext_resource type="Texture2D" uid="uid://buhubn1civufj" path="res://seasonal sample (summer).png" id="2_0lktg"]
@@ -251,4 +251,5 @@ sources/0 = SubResource("TileSetAtlasSource_054xq")
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_rmxup")]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAD6/woAAAAGAAkAAAD7/woAAAAGAAkAAAD8/woAAAAGAAkAAAD9/woAAAAGAAkAAAD+/woAAAAGAAkAAAD//woAAAAGAAkAAAAAAAoAAAAGAAkAAAABAAoAAAAGAAkAAAACAAoAAAAGAAkAAAADAAoAAAAGAAkAAAAEAAoAAAAGAAkAAAAFAAoAAAAGAAkAAAAGAAkAAAAGAAkAAAAHAAkAAAAGAAkAAAAIAAkAAAAGAAkAAAAJAAkAAAAGAAkAAAAKAAkAAAAGAAkAAAAGAAoAAAAGAAkAAAAGAAsAAAAGAAkAAAAFAAsAAAAGAAkAAAAFAAwAAAAGAAkAAAAEAA0AAAAGAAkAAAAEAAwAAAAGAAkAAAAHAAsAAAAGAAkAAAAIAAoAAAAGAAkAAAAJAAoAAAAGAAkAAAALAAkAAAAGAAkAAAAMAAkAAAAGAAkAAAALAAoAAAAGAAkAAAA=")
 tile_set = SubResource("TileSet_lebkx")
