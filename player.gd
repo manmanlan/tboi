@@ -1,5 +1,6 @@
 extends CharacterBody2D
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  
  
 var SPEED = 400.0
@@ -32,6 +33,8 @@ func _physics_process(delta: float) -> void:
 
  
 =======
+=======
+>>>>>>> Stashed changes
 
 var SPEED = 400.0
 @onready var bullet = preload("res://bullet.tscn")
@@ -65,4 +68,7 @@ func shoot_bullet(direction: Vector2) -> void:
 		bullet_temp.set_direction(direction)  # Call a custom method in bullet if it exists
 	elif bullet_temp.has_variable("direction"):
 		bullet_temp.direction = direction  # Or directly set the variable if it exists
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
